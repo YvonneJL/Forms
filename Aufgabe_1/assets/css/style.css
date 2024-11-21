@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 500px;
+    background-color: beige;
+}
+
+/* section {
+    width: 100%;
+} */
+
+label {
+font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
+input, select, textarea {
+    margin-bottom: 20px;
+}
+
+.WeiteÄndern {
+ width: 100%;
+}
+
+.HalbeWeite {
+    width: 49%;
+}
+
+input[name="Vorname"] {
+    margin-right: 6px;
+}
+.submitButton {
+    background-color: rgb(75, 135, 164);
+    color: white;
+    border: none;
+    padding: 1rem;
+    width: 100%; 
+}

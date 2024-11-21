@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-1_1</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form>
+        <section>
+            <label for="NameEintragen NameEintragen2">Name <span>*</span></label>
+            <!-- !Wenn ich nur ein Label aber zwei inputs habe-->wie vergebe ich die ids? -->
+            <div> <input type="text" name="Vorname" id="NameEintragen" class="HalbeWeite" placeholder="Vorname" required >
+                <input type="text" name="Nachname" id="NameEintragen2" class="HalbeWeite"placeholder="Nachname" required >
+            </div>
+        </section>
+
+        <section>
+            <label for="EmailEintragen">Email <span>*</span></label>
+            <div>
+                <input type="email" name="Email" id="EmailEintragen" required class="WeiteÄndern">
+            </div>
+        </section>
+
+        <section>
+            <label for="DasThema">Thema</label>
+            <div>
+                <select name="ThemaAuswählen" id="DasThema" class="WeiteÄndern">
+                    <option value="Advertise">Advertise</option>
+                    <option value="Banane">Banane</option>
+                    <option value="Grapefruit">Grapefruit</option>
+                    <option value="Papaya">Papaya</option>
+                </select>
+            </div>
+        </section>
+
+        <section>
+            <label for="Textfeld">Nachricht <span>*</span></label>
+            <div>
+                <textarea name="Obstsorten" id="Textfeld" rows="10" required class="WeiteÄndern"></textarea>
+            </div>
+        </section>
+
+        <section>
+            <input type="submit" value="Abschicken" class="submitButton">
+        </section>
+
+    </form>
+    
+</body>
+</html>

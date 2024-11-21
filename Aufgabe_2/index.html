@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-2_3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+            <section>
+                <div>
+                    <label for="NameEintragen" class="BrauchtAbstand">Name</label>
+                    <input type="text" id="NameEintragen" name="Name" placeholder="Name">
+                </div>
+                <div>
+                    <label for="NachnameEintragen" class="BrauchtAbstand">Nachname</label>
+                    <input type="text" id="NachnameEintragen" name="Nachname" placeholder="Nachname">
+                </div>
+
+                <div>
+                    <label for="EmailEintragen" class="BrauchtAbstand">Email</label>
+                    <input type="email" id="EmailEintragen" name="Email" placeholder="Email">
+                </div>
+
+                <div>
+                    <label class="BrauchtAbstand">Gender</label>
+
+
+                    <label for="Genderauswahl">Female</label>
+                    <input type="radio" id="Genderauswahl" name="Gender" value="female">
+
+                    <label for="Genderauswahl">Male</label>
+                    <input type="radio" id="Genderauswahl" name="Gender" value="male">
+
+                    <label for="Genderauswahl">Diverse</label>
+                    <input type="radio" id="Genderauswahl" name="Gender" value="diverse" checked>
+                </div>
+
+                <div>
+                    <label for="FileUpload" class="BrauchtAbstand">Picture</label>
+                    <input type="file" id="FileUpload" name="Bildhochladen">
+                </div>
+
+                <div>
+                    <label for="Landauswählen" class="BrauchtAbstand">Country</label>
+                    <select name="Landauswahl" id="Landauswählen">
+                        <option value="Germany" name="Landauswahl">Germany</option>
+                        <option value="France" name="Landauswahl">France</option>
+                        <option value="USA" name="Landauswahl">USA</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Sprachenauswahl" class="BrauchtAbstand">Preferred languages</label>
+                    <select name="Sprachen" id="Sprachenauswahl" multiple>
+                        <option value="">HTML</option>
+                        <option value="">CSS</option>
+                        <option value="">React</option>
+                        <option value="">Java</option>
+                        <option value="">Deutsch</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="Aktivitäten" class="BrauchtAbstand">Field of activity</label>
+                    <input type="checkbox" id="Aktivitäten">
+                    <label for="Aktivitäten">IT</label>
+                    <input type="checkbox" id="Aktivitäten">
+                    <label for="Aktivitäten">Design</label>
+                    <input type="checkbox" id="Aktivitäten">
+                    <label for="Aktivitäten">Other</label>
+                </div>
+
+                <div>
+                    <input type="submit" value="Send">
+                    <button>Cancel</button>
+                </div>
+            </section>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

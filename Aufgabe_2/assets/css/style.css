@@ -1,0 +1,11 @@
+div {
+    margin-bottom: 20px;
+}
+
+.BrauchtAbstand {
+    margin-right: 100px;
+    display: inline-block;
+    width: 8rem;
+}
+
+/* display inline block sorgt dafür, dass ich den labels, die ich hier anspreche eine Größe vergeben kann (da sie inline Elemente sind und nur die Größe einnehmen, die sie eben brauchen-->so kann ich Größe vergeben-->überall gelich-->so wird dann der Abstand zum Eingabefeld überall gleich */
